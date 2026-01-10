@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4474177b-2e5c-4472-8e6c-d549a0d6c1d6")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 46.99 55.88)
+		(size 48.26 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fa13e06-34db-49b7-a023-450a8ba3031e")
+		(property "Sheetname" "PD_Control"
+			(at 46.99 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pdcontrol.kicad_sch"
+			(at 46.99 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PortablePower"
+				(path "/4474177b-2e5c-4472-8e6c-d549a0d6c1d6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 69.215)
+		(size 53.34 65.405)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96561ace-f42a-4833-93f0-b23748914e58")
+		(property "Sheetname" "BMS"
+			(at 101.6 68.5034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 101.6 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PortablePower"
+				(path "/4474177b-2e5c-4472-8e6c-d549a0d6c1d6"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
