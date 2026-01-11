@@ -476,7 +476,10 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "/PD_Control/SW": "rgb(255, 0, 0)",
+      "GND": "rgb(0, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
