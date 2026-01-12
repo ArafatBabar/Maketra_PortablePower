@@ -1548,7 +1548,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0eae17c2-5640-4607-8f04-7a70df030bad")
 		(property "Reference" "R8"
@@ -2223,7 +2223,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cae9510b-644f-4547-971d-c4b869ff95fa")
 		(property "Reference" "R9"

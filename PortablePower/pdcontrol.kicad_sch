@@ -4819,6 +4819,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 144.145) (xy 93.98 151.765)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c62070-761b-42ae-bd84-57bd72463f93")
+	)
+	(wire
+		(pts
 			(xy 119.38 60.96) (xy 121.285 60.96)
 		)
 		(stroke
@@ -5605,6 +5615,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 60.325) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d923d6-1af6-488f-8003-e9a898939f87")
+	)
+	(wire
+		(pts
 			(xy 57.15 80.645) (xy 57.15 78.105)
 		)
 		(stroke
@@ -6075,6 +6095,16 @@
 		)
 		(uuid "7beb1ce3-b4d6-4cb1-a3cd-b788e3df4f15")
 	)
+	(label "VBUSC"
+		(at 93.98 144.145 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "840e6ce6-500f-4fe3-b82e-a9cc51ac1d97")
+	)
 	(label "D-"
 		(at 67.945 73.66 0)
 		(effects
@@ -6124,6 +6154,16 @@
 			(justify left bottom)
 		)
 		(uuid "9c030073-5e28-4428-a312-05e5a730a02e")
+	)
+	(label "VBUSA1"
+		(at 76.2 60.325 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a06061bd-4b6b-4003-89bb-7a3bc7e3cd5a")
 	)
 	(label "DA-"
 		(at 111.76 80.01 0)
