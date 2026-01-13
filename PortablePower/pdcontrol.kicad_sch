@@ -4114,8 +4114,16 @@
 		(uuid "b39b32a1-afa2-4d09-b6eb-41cf6c560c1a")
 	)
 	(no_connect
+		(at 168.275 35.56)
+		(uuid "bfd5e9af-8a79-40d4-b4b4-087508d71c73")
+	)
+	(no_connect
 		(at 188.595 46.99)
 		(uuid "de2a0e38-a42d-42cc-96f5-6b067ccb645c")
+	)
+	(no_connect
+		(at 164.465 35.56)
+		(uuid "e6a829ad-61c6-49d1-a93a-a78e9dbf3f68")
 	)
 	(no_connect
 		(at 160.655 35.56)
@@ -8018,72 +8026,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.275 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5675f797-93bc-4fe1-a107-dcd5e703c0b3")
-		(property "Reference" "TP10"
-			(at 169.545 37.465 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DATA"
-			(at 168.275 31.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 173.355 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.355 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.275 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b00d21a-c490-4856-9cb4-7096059a3233")
-		)
-		(instances
-			(project "PortablePower"
-				(path "/4474177b-2e5c-4472-8e6c-d549a0d6c1d6/6fa13e06-34db-49b7-a023-450a8ba3031e"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 145.415 180.975 0)
 		(unit 1)
@@ -8869,72 +8811,6 @@
 			(project "PortablePower"
 				(path "/4474177b-2e5c-4472-8e6c-d549a0d6c1d6/6fa13e06-34db-49b7-a023-450a8ba3031e"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 164.465 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83227e7d-41f7-439e-b8b9-75f488cc0b91")
-		(property "Reference" "TP9"
-			(at 165.735 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBUSB"
-			(at 164.465 31.115 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 169.545 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 169.545 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 164.465 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec2d66be-1209-416d-a6be-5d0249fa851e")
-		)
-		(instances
-			(project "PortablePower"
-				(path "/4474177b-2e5c-4472-8e6c-d549a0d6c1d6/6fa13e06-34db-49b7-a023-450a8ba3031e"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
