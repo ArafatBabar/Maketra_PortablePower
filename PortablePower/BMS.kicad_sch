@@ -1124,6 +1124,12 @@
 		)
 	)
 	(junction
+		(at 89.535 79.375)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3158d769-fdae-4543-b9c6-d51c3c254d0d")
+	)
+	(junction
 		(at 120.015 80.645)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1148,10 +1154,22 @@
 		(uuid "96dce2b1-3d10-4012-9381-ceb9a0226cf0")
 	)
 	(junction
+		(at 89.535 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cc9ce25-f9a2-4112-bdea-2d118ef1e0b9")
+	)
+	(junction
 		(at 149.86 53.975)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9c80d81-42e0-4fd4-b530-3303f9fa2fae")
+	)
+	(junction
+		(at 89.535 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9b354f2-2e5c-41ee-a4cd-dfee0670b7d6")
 	)
 	(junction
 		(at 55.245 78.105)
@@ -1182,6 +1200,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edfc463f-865c-42e6-9044-363127fe5516")
+	)
+	(junction
+		(at 89.535 84.455)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53a8226-b9bb-431c-9de7-e4be14f4f95e")
 	)
 	(junction
 		(at 75.565 69.215)
@@ -1381,6 +1405,16 @@
 	)
 	(wire
 		(pts
+			(xy 89.535 81.915) (xy 89.535 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4f432a-e030-466c-abbe-fbca6e0ae353")
+	)
+	(wire
+		(pts
 			(xy 103.505 60.325) (xy 120.65 60.325)
 		)
 		(stroke
@@ -1428,6 +1462,26 @@
 			(type default)
 		)
 		(uuid "c026468b-8320-4a93-b832-afa1eb45c0c1")
+	)
+	(wire
+		(pts
+			(xy 89.535 79.375) (xy 89.535 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c619b6f5-c487-40ab-85d7-ef099011ba73")
+	)
+	(wire
+		(pts
+			(xy 89.535 76.835) (xy 89.535 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d91666-df2a-484a-93a8-434bd382f38c")
 	)
 	(wire
 		(pts
@@ -1519,8 +1573,28 @@
 		)
 		(uuid "fbbd4937-13b7-4378-a85c-7460d31fa007")
 	)
+	(label "B-"
+		(at 143.51 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abc6cbef-94b8-4af9-9eee-d0e8bf0baadc")
+	)
+	(label "PowerNodeBMS"
+		(at 89.535 76.835 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6787a07-b9bb-4ec1-93f1-e2e1a193e0cd")
+	)
 	(hierarchical_label "VDC"
-		(shape input)
+		(shape output)
 		(at 49.53 38.1 180)
 		(effects
 			(font
@@ -1531,7 +1605,7 @@
 		(uuid "64d12882-a5d0-4b06-a506-0177b16d23a9")
 	)
 	(hierarchical_label "GND"
-		(shape input)
+		(shape output)
 		(at 49.53 78.105 180)
 		(effects
 			(font
@@ -1925,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DQG_VSON-CLIP"
+		(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
 			(at 111.125 171.755 0)
 			(effects
 				(font
@@ -2084,7 +2158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DQG_VSON-CLIP"
+		(property "Footprint" "CSD16406Q3:DQG_VSON-CLIP"
 			(at 83.185 171.755 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.45,
+          "width": 1.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -477,6 +477,9 @@
       "version": 4
     },
     "net_colors": {
+      "+BATT": "rgb(0, 0, 255)",
+      "/BMS/B-": "rgb(194, 194, 194)",
+      "/BMS/PowerNodeBMS": "rgb(255, 229, 191)",
       "/PD_Control/SW": "rgb(255, 0, 0)",
       "/PD_Control/VOUTA1": "rgb(0, 255, 255)",
       "/PD_Control/VOUTSN": "rgb(255, 153, 0)",
