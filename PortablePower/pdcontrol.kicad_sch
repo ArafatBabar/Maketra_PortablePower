@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN40P600X600X80-49N"
+		(property "Footprint" "SW6208:QFN40P600X600X80-49N"
 			(at 163.195 136.83 0)
 			(effects
 				(font
