@@ -254,10 +254,6 @@
           ""
         ],
         [
-          "silk_edge_clearance|116000000|81000000|b95eb9d8-ab13-4d1c-9b73-3406b7ef4848|e1281cb9-4c75-4b06-a298-2ca1efcf5fa2",
-          ""
-        ],
-        [
           "silk_edge_clearance|116000000|81000000|b95eb9d8-ab13-4d1c-9b73-3406b7ef4848|f56c4647-78cd-43f9-83d7-ab4c49e1f3f6",
           ""
         ],
@@ -319,14 +315,6 @@
         ],
         [
           "silk_overlap|122496308|83500000|f56c4647-78cd-43f9-83d7-ab4c49e1f3f6|fddb1695-1c7e-4aa9-b36a-65a5fcbfe3f5",
-          ""
-        ],
-        [
-          "silk_overlap|133550057|83904761|c20b5873-2081-49ba-9b3e-73cc1b82ccc5|e1281cb9-4c75-4b06-a298-2ca1efcf5fa2",
-          ""
-        ],
-        [
-          "text_on_edge_cuts|115250000|126500000|ab165239-8bb8-4b98-9825-881d1a4a885a|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -777,7 +765,7 @@
       "plot": "GerberBank/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PortablePower.step",
       "svg": "",
       "vrml": ""
     },
